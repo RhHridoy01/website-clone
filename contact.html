@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <style>
+        .b-1{
+            color: #3c3c3c;
+            font-family: 'Raleway', sans-serif;
+            font-Weight:400;
+
+            font-size: 13px;
+        }
+        .b-2 a i:hover{
+           background-color: skyblue;
+        }
+        .sticky-top{
+            background-color: #ffffff;
+            font-family: 'Raleway', sans-serif;
+        }
+        .navbar-brand{
+            color: #1c1c1c;
+            font-weight: 600;
+            font-size:24px;
+            font-family: 'Raleway', sans-serif;
+        }
+        .nav-item{
+            color: #1c1c1c;
+            font-weight: 600;
+            font-size:14px;
+            font-family: 'Raleway', sans-serif;
+        }
+        .navbar-collapse ul li a:hover{
+            color:  cornflowerblue;
+        }
+        .service{
+            color: #1c1c1c;
+    
+            font-family: 'Raleway', sans-serif;
+        }
+        .service-single-item{
+            font-family: 'Raleway', sans-serif;
+        }
+        .b-11{
+            font-weight: 300;
+            font-size: 36px;
+            line-height:48px;
+            color: #ffffff;
+            font-family: 'Raleway', sans-serif;
+            margin-top:40px;
+        }
+        .b-12{
+            font-weight: 400;
+            font-size: 18px;
+            line-height:10px;
+            color: #4c4c4c;
+            font-family: 'Raleway', sans-serif;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .gallery-titel{
+          color: #1c1c1c;
+          font-weight: 400;
+            font-size: 18px;
+            line-height:24px;
+            margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+        }
+        .bg-1{background: rgba(20, 158, 184,.9)}
+        .bg-2{background: rgba(23,170,195,.9)}
+        .bg-3{background: rgba(24,180,206,.9)}
+        .bg-4{background: rgba(26,190,217,.9)}
+        .counter p{font-family: 'Raleway', sans-serif;font-weight:100;font-size:60px;}
+        .counter h5{font-family: 'Raleway', sans-serif; font-weight: 700;font-size: 18px;}
+        .our-team{
+          color: #1c1c1c;
+          font-weight: 400;
+            font-size: 18px;
+            line-height:24px;
+            margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+        }
+        .temmeber{
+          color: #1c1c1c;
+          font-family: 'Raleway', sans-serif;
+        }
+        .owl-carousel{
+          width: 100%;
+          height: auto;
+          display: block;
+          overflow: hidden;
+          transition: all .5s;
+        }
+        .client h2 b{
+    
+          color: #1c1c1c;
+          font-size: 36px;
+          line-height: 48px;
+          font-weight: 600;
+          font-family: 'Raleway', sans-serif;
+        }
+        .client p{
+          font-family: 'Raleway', sans-serif;
+          color: #4c4c4c;
+          font-weight: 300;
+          font-size: 21px;
+          line-height: 37px;
+        }
+     .latest-titel h2{
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 48px;
+      color: #1c1c1c;
+     }
+     .latest-titel p{
+      font-family: 'Raleway', sans-serif;
+      font-size: 300;
+      font-size: 21px;
+      line-height: 37px;
+      color: #4c4c4c;
+     }
+     .fotter-section{
+       background-color: #3C3C3C;
+
+     }
+     .fotter-content h4{
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: #ffffff;
+     }
+     .fotter-content p{
+      font-family: 'Raleway', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #ffffff;
+     }
+     .b-101{
+       background-color:#1c1c1c;
+     }
+     .b-111{
+       color: #ffffff;
+       font-family: 'Raleway', sans-serif;
+
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 24px;
+     }
+     .b-121{
+       float:right;
+     }
+     .hero-section{
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding: 230px 0px;
+            position: relative;
+            overflow: hidden;
+        }
+        .overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(37,188,215,.7);
+            top: 0;
+            left:0;
+        }
+        .b-0{
+            font-family: 'Raleway', sans-serif;
+           
+        }
+        .overlay p{
+            font-family: 'Raleway', sans-serif;
+            font-size: 21px;
+            line-height: 37px;
+            color: #ffffff;
+            font-weight: 300;
+        }
+        .b-10 h3{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 48px;
+            color: #1c1c1c;
+        }
+        .b-10 p{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #4c4c4c;
+        }
+        .skill-1 h2{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 54px;
+            color: #1c1c1c;
+        }
+        .skill-1 p{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #4c4c4c;
+        }
+        .card-header{
+            background-color: #00C0E1;
+        }
+        .skill-2 h2{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 54px;
+            color: #1c1c1c;
+        }
+        .skill-2 p{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #4c4c4c;
+        }
+        .progress-bar{
+            background-color: #00C0E1;
+            font-family: 'Raleway', sans-serif;
+            
+        }
+    </style>
+</head>
+<body style="background-image: url(img/background.jpg);background-attachment: fixed;background-repeat: no-repeat;">
+    <!---Top Bar Start-->
+        <section class="container-fluid"style="background-color: #F0F0F0;">
+            <div class="d-flex bd-highlight">
+                <div class="p-2 bd-highlight b-1"><i class="fas fa-envelope"></i>  lambda@lambda-theme.com</div>
+                <div class="border border-right"></div>
+                <div class="p-2 bd-highlight b-1"><i class="fas fa-phone-alt"></i> 1-800-555-555</div>
+                <div class="ml-auto p-2 bd-highlight b-2">
+                      <a data-iconcolor="#3b6998" href="https://www.facebook.com"style="background-color:rgba(0, 0, 0,0)"><i class="fab fa-facebook-f"style="color:rgba(28, 28, 28)"></i></a>&nbsp;&nbsp;
+                      <a data-iconcolor="#3b6998"href="https://wwww.twitter.com"style="background-color:rgba(0, 0, 0,0)"><i class="fab fa-twitter" style="color:rgba(28, 28, 28)"></i></a>&nbsp;&nbsp;
+                      <a data-iconcolor="#3b6998"href="https://wwww.linkedin.com"style="background-color:rgba(0, 0, 0,0)"><i class="fab fa-linkedin-in"  style="color:rgba(28, 28, 28)"></i></a>&nbsp;&nbsp;
+                      <a data-iconcolor="#3b6998"href="https://wwww.googleplus.com"style="background-color:rgba(0, 0, 0,0)"><i class="fab fa-google-plus-g" style="color:rgba(28, 28, 28)"></i></a>&nbsp;&nbsp;   
+                </div>
+              </div>
+        </section>
+    <!---Top Bar End-->
+        <!---Nav Bar Start-->
+        <section class="sticky-top shadow">
+            <div class="container-fluid p-3">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">LAMBDA</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+                    </li>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="about.html">About</a>
+                        <a class="dropdown-item" href="service.html">Services</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Single Service</a>
+                        <a class="dropdown-item" href="#">Meet the team</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Right Sidebar</a>
+                        <a class="dropdown-item" href="#">Left Sidebar</a>
+                      </div>
+                    </li>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Elements</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">IT Service</a>
+                        <a class="dropdown-item" href="#">Managed IT Service</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Industries</a>
+                        <a class="dropdown-item" href="#">Business Solution</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">IT Services Details</a>
+                      </div>
+                    </li>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="columns.html">2 Columns</a>
+                        <a class="dropdown-item" href="#">3 Columns</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">4 columns</a>
+                        <a class="dropdown-item" href="#">Masonry</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Fullwidth</a>
+                        <a class="dropdown-item" href="#">Standard Items</a>
+                        <a class="dropdown-item" href="#">Gallery Items</a>
+                        <a class="dropdown-item" href="#">video Items</a>
+                      </div>
+                    </li>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Blog
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Right Slidebar</a>
+                            <a class="dropdown-item" href="#">Left slidebar</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">No Slidebar-Wide</a>
+                            <a class="dropdown-item" href="#">No slidebar-Regular</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">No Slidebar-Narrow</a>
+                            <a class="dropdown-item" href="#">Mansonry</a>
+                            <a class="dropdown-item" href="#">Timeline</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Standard Post</a>
+                            <a class="dropdown-item" href="#">Gallery Post</a>
+                            <a class="dropdown-item" href="#">Video Post</a>
+                            <a class="dropdown-item" href="#">Audio Post</a>
+                          </div>
+                    </li>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item"><i class="fas fa-search"></i></li>
+                  </ul>
+        
+                </div>
+              </nav>
+              </div>
+        </section>
+        <!---Nav Bar End-->
+        <!--About Us Start-->
+        <section class="hero-section">
+            <div class="overlay text-center text-white d-flex align-item-center justify-content-center flex-column">
+                <h1 class="font-weight-bold b-0">Contact us</h1><br/>
+                <p>We are a corporate web design agency who are passionate with<br/> our pixels.<br/>Drop us a line if you have any requests or you are ready for a new <br/>project.</p>
+            </div>
+    
+        </section>
+        <!--About Us End-->
+        <!--Email Section-->
+        <div class="container-fluid bg-white p-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                          <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Your Name" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                          </div>
+                          <div class="form-group col-md-6 mb-3">
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Your Email">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="col-md-12 mb-3">
+                            <input type="text" class="form-control" id="validationCustom03" placeholder="Your Subject" required>
+                            <div class="invalid-feedback">
+                              Please provide a valid subject.
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" rows="10"></textarea>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                              Agree to terms and conditions
+                            </label>
+                            <div class="invalid-feedback">
+                              You must agree before submitting.
+                            </div>
+                          </div>
+                        </div>
+                        <button class="btn text-white "style="background:#009DB8" type="submit">Submit Email</button>
+                      </form>
+                      
+                      <script>
+                      // Example starter JavaScript for disabling form submissions if there are invalid fields
+                      (function() {
+                        'use strict';
+                        window.addEventListener('load', function() {
+                          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                          var forms = document.getElementsByClassName('needs-validation');
+                          // Loop over them and prevent submission
+                          var validation = Array.prototype.filter.call(forms, function(form) {
+                            form.addEventListener('submit', function(event) {
+                              if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                              }
+                              form.classList.add('was-validated');
+                            }, false);
+                          });
+                        }, false);
+                      })();
+                      </script>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/map.PNG"/>
+                </div>
+            </div>
+        </div>
+        <!---Email Section End-->
+        
+        <!---Count Up-->
+        <section class="counterup-area">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-md-3 bg-1 p-4">
+                      <div class="counter text-center text-white">
+                        <i style="font-size: 2em" class="fas fa-home"></i>
+                          <h5 style=" font-family: 'Raleway', sans-serif;
+                          font-weight: 300;
+                          font-size: 21px;
+                          line-height: 37px;
+                          color: #ffffff;">Lambda LTD
+                            Some Address, London<br/> UK</h5>
+                      </div>
+                  </div>
+                  <div class="col-md-3 bg-2 p-4">
+                      <div class="counter text-center text-white">
+                        <i style="font-size: 2em" class="fas fa-envelope"></i>
+                          <h5 style=" font-family: 'Raleway', sans-serif;
+                          font-weight: 300;
+                          font-size: 21px;
+                          line-height: 37px;
+                          color: #ffffff;">some@lambda.com
+                            Drop us a line</h5>
+                      </div>
+                  </div>
+                  <div class="col-md-3 bg-3 p-4">
+                      <div class="counter text-center text-white">
+                        <i style="font-size: 2em" class="fab fa-facebook-f"></i>
+                          <h5 style=" font-family: 'Raleway', sans-serif;
+                          font-weight: 300;
+                          font-size: 21px;
+                          line-height: 37px;
+                          color: #ffffff;">visit our page
+                            on facebook</h5>
+                      </div>
+                  </div>
+                  <div class="col-md-3 bg-4 p-4">
+                      <div class="counter text-center text-white">
+                        <i style="font-size: 2em" class="fab fa-twitter"></i>
+                          <h5 style=" font-family: 'Raleway', sans-serif;
+                          font-weight: 300;
+                          font-size: 21px;
+                          line-height: 37px;
+                          color: #ffffff;">follow us on twitter
+                            for the latest updates</h5>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+        <!--Count Up End-->
+<!----fotter-->
+<section class="fotter-section p-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="fotterbar">
+          <img src=""alt="" class="w-100">
+          <div class="fotter-content text-white text-left p-3">
+            <h4 class=" m-auto">About Us</h4><br/>
+            <p>Create stunning pages with our powerful admin panel. Functionality and usability combine to let you design your pages without any coding.<br/><br/>
+
+              Get Lambda and start right away.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="fotterbar">
+          <img src=""alt="" class="w-100">
+          <div class="fotter-content text-white text-left p-3">
+            <h4 class="m-auto ">Recent posts</h4><br/>
+            <p><b>The know how of branding</b><br/>
+              September 25, 2014</p>
+              <div class="dropdown-divider"></div>
+              <p><b>A corporare design to remember</b><br/>
+                September 25, 2014</p>
+                <div class="dropdown-divider"></div>
+                <p><b>The blog fundamentals</b><br/>
+                  September 25, 2014</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="fotterbar">
+          <img src=""alt="" class="w-100">
+          <div class="fotter-content text-white text-left p-3">
+            <h4 class=" m-auto">Categories</h4><br/>
+            <p>Arts & Culture</p>
+            <div class="dropdown-divider"></div>
+            <p>Mobile</p>
+            <div class="dropdown-divider"></div>
+            <p>Reviews</p>
+            <div class="dropdown-divider"></div>
+            <p>Sports</p>
+            <div class="dropdown-divider"></div>
+            <p>Tech</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="fotterbar">
+          <img src=""alt="" class="w-100">
+          <div class="fotter-content text-white text-left p-3">
+            <h4 class="m-auto">Our Headquarters</h4><br/>
+            <img src="img/world.PNG"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!----Fotter End-->
+<!---Footer Section-->
+<footer>
+  <div class="container-fluid b-101 p-3">
+    <div class=" b-111">Lambda Wordpress Theme. © Oxygenna 2014
+    <div class=" b-121">
+      <a  href="https://www.facebook.com"style="background-color:rgba(0, 0, 0,0)"><i class="fab fa-facebook-f"style="color:rgba(255, 255, 255)"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://wwww.twitter.com"style="background-color:rgba(0, 0, 0,0)"><i class="fab fa-twitter" style="color:rgb(255, 255, 255)"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://wwww.linkedin.com"style="background-color:rgba(0, 0, 0,0)"><i class="fab fa-linkedin-in"  style="color:rgb(255, 255, 255)"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://wwww.googleplus.com"style="background-color:rgba(0, 0, 0,0)"><i class="fab fa-google-plus-g" style="color:rgb(255, 255, 255)"></i></a>&nbsp;&nbsp;   
+    </div>
+    </div>
+  </div>
+</footer>
+<!---Footer Section End-->
+ <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+ <script src="js/jquery.counterup.min.js"></script>
+ <script>
+  $('.count').counterUp({
+  delay: 10,
+  time: 1000
+});
+</script>
+<script src="js/fontawesome.js"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/activate.js"></script>
+<script>
+$('.carousel').carousel({
+  autoplay:1,
+  interval: 2000
+})
+</script>
+</body>
+</html>
